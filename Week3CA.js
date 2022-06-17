@@ -74,3 +74,10 @@ for (i = 0; i < nameArray.length; i++) {
     nameLengths[i] = nameArray[i].length;
 }
 console.log(nameLengths);
+
+//question 6
+let letterSum = 0;
+for (i = 0; i < nameLengths.length; i++) {
+    letterSum += nameLengths[i];
+}
+console.log(letterSum);
