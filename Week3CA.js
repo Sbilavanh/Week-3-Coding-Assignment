@@ -29,6 +29,7 @@ average = sum / ages.length;
 
 console.log(average);
 
+//not sure if this would work
 // let sum;
 // function average(ages) {
 //     for (i = 0; i < ages.length; i++) {
