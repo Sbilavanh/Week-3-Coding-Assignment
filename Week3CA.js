@@ -81,3 +81,83 @@ for (i = 0; i < nameLengths.length; i++) {
     letterSum += nameLengths[i];
 }
 console.log(letterSum);
+
+//question 7
+function cody(word, n) {
+    let cody = '';
+    for (i = 0; i < n; i++) {
+        cody += word;
+    }
+    return cody;
+}
+console.log(cody("pizzaTime", 3));
+
+//question 8
+function fullName(firstName, lastName) {
+    console.log(firstName + " " + lastName);
+}
+fullName("Souphalak", "Bilavanh");
+
+//question 9
+function num(numArray) {
+    let sum = 0;
+    for (i = 0; i < numArray.length; i++) {
+        sum += numArray[i];
+    }
+    //console.log(sum);
+    if (sum >= 100) {
+        return true;
+    } else
+        return false;
+}
+console.log(num(ages));
+
+//question 10
+let arrayOne = [2, 4, 6, 8];
+function averageArray(arrayOne) {
+    let sum1 = 0
+    for (i = 0; i < arrayOne.length; i++) {
+        sum1 += arrayOne[i]
+    }
+    let average = sum1 / arrayOne.length;
+    return average
+}
+console.log(averageArray(arrayOne));
+
+//question 11
+let num1 = [2, 8, 23, 69];
+let num2 = [5, 30, 4, 3];
+
+function averageOfTwo(num1, num2) {
+    let sum1 = 0;
+    let sum2 = 0;
+    for (i = 0; i < num1.length; i++) {
+        sum1 += num1[i];
+    }
+    for (i = 0; i < num2.length; i++) {
+        sum2 += num2[i];
+    }
+    let averageOfTwo = sum1 / num1.length;
+    let sum3 = sum2 / num2.length;
+
+    // console.log(averageOfTwo);
+    // console.log(sum3);
+
+    if (averageOfTwo > sum3) {
+        return true;
+    }
+    else
+        return false;
+}
+console.log(averageOfTwo(num1, num2));
+
+//question 12
+function willBuyDrink(isHotOutside, moneyInPocket) {
+    if (isHotOutside === true && moneyInPocket > 10.50) {
+        return true;
+    } else return false;
+}
+console.log(willBuyDrink(true, 11));
+
+//question 13
+
