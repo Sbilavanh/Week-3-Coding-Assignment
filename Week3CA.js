@@ -160,4 +160,12 @@ function willBuyDrink(isHotOutside, moneyInPocket) {
 console.log(willBuyDrink(true, 11));
 
 //question 13
+function isYourNameSouphalak(name) {
+    if (name.toLowerCase() === "Souphalak")
+        return true;
+    else
+        return false;
+}
+console.log(isYourNameSouphalak("Nyles"));
 
+//I chose this example to know if I am using this
