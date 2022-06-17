@@ -1,3 +1,4 @@
+//question 1
 let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 
 console.log(ages);
@@ -37,6 +38,7 @@ console.log(average);
 // }
 // console.log(ages);
 
+//question 2
 let names = ['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 
 console.log(names)
@@ -49,3 +51,26 @@ for (let average of names) {
 average = letterAverage / names.length;
 
 console.log(average);
+
+let booty = "";
+for (i = 0; i < names.length; i++) {
+
+    booty += names[i];
+    booty += " ";
+}
+console.log(booty);
+
+//question 3
+console.log(names[names.length - 1]);
+
+//question 4
+console.log(names[0]);
+
+//question 5
+let nameArray = ["kelly", "Sam", "Kate"];
+let nameLengths = [];
+
+for (i = 0; i < nameArray.length; i++) {
+    nameLengths[i] = nameArray[i].length;
+}
+console.log(nameLengths);
